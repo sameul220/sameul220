@@ -1,0 +1,11 @@
+///chack the largest number
+#include<stdio.h>
+void main()
+{
+int x,y,z,A;
+printf("enter three numbers:");
+scanf("%d%d%d",&x,&y,&z);
+A=(x>y)?((x>z)?(x):(z)):((y>z)?(y):(z));
+printf("the largest number is:%d",A);
+
+}
