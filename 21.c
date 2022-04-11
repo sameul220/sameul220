@@ -6,12 +6,12 @@ void main()
 int i,a[15],n;
   printf("how many element:");
   scanf ("%d",&n);
-  printf ("enter %d alemets are: ");
+  printf ("enter the elemets are: ");
   for(i=0;i<n;i++){
     scanf("%d",&a[i]);}
   
-printf ("%d alemets are: ");
+printf ("the elemets are: ");
   for(i=0;i<n;i++){
-    printf("%d",&a[i]);}
+    printf("%d",a[i]);}
   
 }
