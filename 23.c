@@ -11,7 +11,7 @@ int a[20],p,n,q,t;
   scanf("%d",&a[p]);}
   printf("elemnts are shorted in asscending way:");
   for(p=0;p<n;p++){
-  for (q=p+1;q>=0;q++){
+  for (q=p+1;q<n;q++){
   if(a[p]>a[q]){
   t=a[p];
    a[p]=a[q];
@@ -25,7 +25,7 @@ int a[20],p,n,q,t;
   
    for(p=0;p<n;p++)
    {
-   printf("%d",a[p]);
+   printf("%d\t",a[p]);
    }
 
 
