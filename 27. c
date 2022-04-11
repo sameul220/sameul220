@@ -1,0 +1,26 @@
+/// Write a program for matrix input and output
+
+#include<stdio.h>
+void main()
+{
+int a[20][20],r,c,n;
+printf("how many rows:");
+scanf("%d",&n);
+printf("enter matrix A value:");
+for(r=0;r<n;r++)
+{
+for(c=0;c<n;c++)
+{
+scanf ("%d",&a[r][c]);
+}
+printf("the matrix of A value:");
+for(r=0;r<n;r++)
+{
+for(c=0;c<n;c++)
+{
+printf ("%d",a[r][c]);
+}
+{
+printf("\n");
+}
+}
